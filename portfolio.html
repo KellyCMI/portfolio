@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Kamil Sobieraj - portfolio page</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+    <script src="portfolio.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <button type="button" class="js-scroll-into-contact menu-button"><a href="#contact">Contact</a></button>
+            <button type="button" class="js-scroll-into-portfolio menu-button"><a href="#portfolio">Portfolio</a></button>
+            <button type="button" class="js-scroll-into-about-me menu-button"><a href="#about-me">About me</a></button>
+        </nav>
+    </header>
+    <div class="container">
+        <div class='inter-images'>
+            <img src="img/main-image.jpg"><!--https://cdn.pixabay.com/photo/2018/02/16/10/52/wood-3157395_1280.jpg-->
+        </div>
+        <div id='about-me' class="about-me">
+            <div class='row'>
+                <div class='about-me-left col-8'>
+                    <h2>About me</h2>
+                    Hey! My name is Kamil, and I'm trying to become a front-end-developer.<br> This is my very first page! <br><br> So far I've learned basics of:<br>
+                    <div class='row justify-content-center'>
+                        <img class="skills" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2000px-HTML5_logo_and_wordmark.svg.png">
+                        <img class="skills" src="http://logonoid.com/images/css3-logo.png">
+                        <img class="skills" src="http://www.seeicons.com/images/iconstore/512/seeicons__57e90b703eba6.png">
+                        <img class="skills" src="http://qinematic.com/wp-content/uploads/2016/03/js-logo.png">
+                    </div>
+                </div>
+                <div class='about-me-right col-4'>
+                    <img id='my-photo' src="img/my-photo.jpg"> <!--http://www.polska-azja.pl/wp-content/uploads/2007/03/img_2490.jpg-->
+                </div>
+            </div>
+        </div>
+        <div class="inter-images">
+            <img src="img/above-portfolio.jpg"> <!--https://cdn.pixabay.com/photo/2017/08/07/22/57/coffee-2608864_1280.jpg-->
+        </div>
+        <div id='portfolio' class="portfolio">
+            <h2>Portfolio</h2>
+            <div>Unfrotunately, I have nothing to show so far. My portfolio page is actually my very first one!</div>
+            <div class='row justify-content-center'>
+                <div class='portfolio-photo col-3'><a href="" target="_blank"><img src=""></a>Still to create</div>
+                <div class='portfolio-photo col-3'><a href="" target="_blank"><img src=""></a>Still to create</div>
+                <div class='portfolio-photo col-3'><a href="" target="_blank"><img src=""></a>Still to create</div>
+            </div>
+        </div>
+        <div class="inter-images">
+            <img src="img/above-contact.jpg"> <!--https://cdn.pixabay.com/photo/2018/02/14/10/28/business-3152586_1280.jpg-->
+        </div>
+        <div id='contact' class="contact">
+            <h2>Contact</h2>
+            <div class="row">
+                <div class="contact-left col-8">
+                    <form>
+                        What's your name?<br>
+                        <input class='input-area' type="text" placeholder="Type your name" required><br> Your e-mail adress:<br>
+                        <input class='input-area' type="email" placeholder="Type your e-mail" required><br> Why you want to contact me?<br>
+                        <textarea class='input-area' name="message" rows="5" cols="40"></textarea><br>
+                        <button type="submit" class="submit-button">Submit</button>
+                    </form>
+                </div>
+                <div class="contact-right col-4">
+                    You can find me on social media:<br>
+                    <div class="row justify-content-center">
+                        <a href="https://twitter.com/kamil_sobieraj" target="_blank"><img class='twitter-logo col-6' src="img/twitter-logo.png"></a> <!--https://www.shareicon.net/download/2015/09/16/102081_twitter_512x512.png-->
+                        <a href="https://www.linkedin.com/in/kamil-sobieraj-477907b7/" target="_blank"><img class='linkedin-logo col-6' src="img/LinkedIn-Logo.png"></a> <!--https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/2000px-Linkedin.svg.png-->
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
